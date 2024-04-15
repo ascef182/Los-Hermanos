@@ -199,7 +199,7 @@ menu.addEventListener("click", function(event){
     function checkRestauranteOpen(){
         const data = new Date();
         const hora = data.getHours();
-        return hora >= 18 && hora < 22;
+        return hora >= 15 && hora < 22;
 
         //true = restaurante esta aberto
 
